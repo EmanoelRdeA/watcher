@@ -17,6 +17,7 @@ Easy to extend — add new platforms in platforms/
 ### Installation 
 
 git clone https://github.com/EmanoelRdeA/watcher
+
 cd watcher
 
 ## Install dependencies
