@@ -24,8 +24,8 @@ cd watcher
 
 Inside your watcher folder, run:
 
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv\n
+source venv/bin/activate\n
 pip install -r requirements.txt
 
 
