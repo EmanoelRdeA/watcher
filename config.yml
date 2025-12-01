@@ -1,15 +1,10 @@
-platforms:
-  hackerone: true
-  bugcrowd: true
+hackerone:
+  enabled: true
 
-notify:
-  telegram:
-    enabled: false
-    token: "YOUR_TOKEN_HERE"
-    chat_id: "YOUR_CHAT_ID_HERE"
-  
-  discord:
-    enabled: false
-    webhook_url: "YOUR_WEBHOOK_HERE"
+bugcrowd:
+  enabled: true
 
-check_interval: 3600  # check every 1 hour
+notifications:
+  discord_webhook: "URL"
+  telegram_token: "TOKEN"
+  telegram_chat_id: "ID"
