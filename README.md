@@ -22,7 +22,12 @@ cd watcher
 
 ## Install dependencies
 
+Inside your watcher folder, run:
+
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
+
 
 ### Configuration
 Edit -> config.yml 
