@@ -16,16 +16,15 @@ Easy to extend — add new platforms in platforms/
 
 ### Installation 
 
-git clone https://github.com/EmanoelRdeA/watcher
-
+git clone https://github.com/EmanoelRdeA/watcher <br>
 cd watcher
 
 ## Install dependencies
 
 Inside your watcher folder, run:
 
-python3 -m venv venv\n
-source venv/bin/activate\n
+python3 -m venv venv <br>
+source venv/bin/activate <br>
 pip install -r requirements.txt
 
 
